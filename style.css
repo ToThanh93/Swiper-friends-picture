@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(151, 6, 229);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.swiper-container
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.swiper-slide
+{ 
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#000);
+}
+
